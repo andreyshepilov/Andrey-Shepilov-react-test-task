@@ -1,0 +1,30 @@
+body {
+    background: #eee;
+}
+
+article {
+    background: #fff;
+    padding: 15px;
+}
+
+.logo-main {
+    @media (max-width: 720px) {
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+.frontpage-article {
+    margin: 0 auto;
+    max-width: 600px;
+
+    @media (max-width: 720px) {
+        h1 {
+            font-size: 26px;
+        }
+      
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
